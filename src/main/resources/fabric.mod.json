@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autodrip",
+  "version": "21.37",
+  "name": "AutoDrip",
+  "description": "Zrzucaj dripstone szybciej niz top1lifesteal mordo",
+  "authors": ["necek"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "necek.development.autodrip.client.MainClient"
+    ],
+    "main": [
+      "necek.development.autodrip.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.17.1"
+  }
+}
