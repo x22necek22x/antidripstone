@@ -7,7 +7,6 @@
   "authors": ["necek"],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
